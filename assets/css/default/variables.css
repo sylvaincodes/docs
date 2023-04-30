@@ -1,0 +1,114 @@
+/*-----------------------
+	- STYLESHEET VARIABLES
+------------------------*/
+
+:root {
+
+	/*
+		- Couleurs principales
+	*/
+
+	--first-color : #495057;
+	--second-color : #495057;
+	--third-color : #495057;
+
+
+	/*
+		- Couleurs secondaires
+	*/
+
+	--blue: #556ee6;
+	--indigo: #564ab1;
+	--purple: #6f42c1;
+	--pink: #e83e8c;
+	--red: #f46a6a;
+	--orange: #f1734f;
+	--yellow: #f1b44c;
+	--green: #34c38f;
+	--teal: #050505;
+	--cyan: #50a5f1;
+	--white: #fff;
+	--black: #fff;
+	--gray: #74788d;
+	--gray-dark: #343a40;
+	--primary: #556ee6;
+	--secondary: #74788d;
+	--success: #34c38f;
+	--info: #50a5f1;
+	--warning: #f1b44c;
+	--danger: #f46a6a;
+	--light: #eff2f7;
+	--dark: #343a40;
+	--pink: #e83e8c;
+
+
+	/*
+		- Couleurs gradients
+	*/
+
+	--gradient-1 : linear-gradient( 180deg , transparent , var(--first-color));
+	--gradient-2 : linear-gradient( 180deg , transparent , var(--second-color));
+
+
+	/*
+		- Shadows
+	*/
+
+	--shadow: 0 12px 30px -10px hsla(0, 0%, 14%, 0.1);
+    --shadow-2: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    --shadow-3: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    --shadow-4: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    --shadow-5: 10px 10px 10px black;
+    --shadow-6: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+
+    /*
+		- Radius
+    */
+
+    --radius-circle: 50%;
+    --radius-5: 5px;
+    --radius-25: 25px;
+
+
+    /*
+		- BREAKPOINTS RESPONSIVE
+    */
+
+    --xs-breakpoint : 0;
+    --sm-breakpoint : 576px;
+    --md-breakpoint : 768px;
+    --lg-breakpoint : 992px;
+    --xl-breakpoint : 1200px;
+
+    /*
+		- BREAKPOINTS MAXWIDTH RESPONSIVE
+    */
+
+    --sm-maxwidth : 540px;
+    --md-maxwidth : 740px;
+    --lg-maxwidth : 940px;
+    --xl-maxwidth : 1140px;
+
+
+    /*
+		- Font family
+    */
+
+    --ff-segoe : "Segoe";
+    --ff-ubuntu : "Ubuntu";
+
+
+    /*
+		- Sizes
+    */
+
+    --line-height : 1.15;
+
+
+    /*
+		- Padding
+    */
+
+    --padding-inline : 1rem;
+}

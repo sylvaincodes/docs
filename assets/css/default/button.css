@@ -1,0 +1,11 @@
+/* ========== Buttons CSS =========== */
+
+.btn{
+    display: inline-block;
+    background:transparent;
+    border:1px solid transparent;   
+}
+
+.btn-sm{
+    font-size:2rem;
+}

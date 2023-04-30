@@ -1,0 +1,35 @@
+/* =========  HEADER XL  ========= */
+
+#page-topbar{
+    position:fixed;
+    background-color: var(--first-color);
+    color: var(--white);
+    left:0;
+    right:0;
+    top:0;
+}
+
+#navbar-header{
+    height:70px;
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    align-items:center;
+    padding-inline: var(--padding-inline);
+}
+
+#navbar-header .btn{
+    padding:0 !important;
+}
+
+body[data-topbar=dark] .logo-light {
+    display: block;
+}
+
+body[data-topbar=dark] .logo-dark {
+    display: none;
+}
+
+.d-xl-none{
+    display:none;
+}

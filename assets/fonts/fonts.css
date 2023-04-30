@@ -1,0 +1,97 @@
+/*-----------------------------------*\
+  #ALL FONTS 
+\*-----------------------------------*/
+
+
+/**
+ * SEGOE FONT
+ */
+
+@font-face {
+  font-family: 'Segoe';
+  src: local('Segoe'), local('Segoe'),
+      url('./segoe/Segoe.ttf') format('ttf');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; 
+}
+@font-face {
+  font-family: 'Segoe';
+  src: local('Segoe Bold'), local('Segoe-Bold'),
+      url('./segoe/Segoe-Bold.ttf') format('ttf');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; 
+}
+
+
+
+/**
+ * Ubuntu FONT
+ */
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu Light'), local('Ubuntu-Light'),
+      url('./ubuntu/Ubuntu-Light.ttf') format('ttf');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu Light'), local('Ubuntu-Light'),
+      url('./ubuntu/Ubuntu-LightItalic.ttf') format('ttf');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap; 
+}
+
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
+      url('./ubuntu/Ubuntu-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; 
+}
+
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
+      url('./ubuntu/Ubuntu-Italic.ttf') format('ttf');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap; 
+}
+
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu Medium'), local('Ubuntu-Medium'),
+      url('./ubuntu/Ubuntu-Medium.ttf') format('ttf');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu Medium'), local('Ubuntu-Medium'),
+      url('./ubuntu/Ubuntu-MediumItalic.ttf') format('ttf');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'),
+      url('./ubuntu/Ubuntu-Bold.ttf') format('ttf');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap; 
+}
